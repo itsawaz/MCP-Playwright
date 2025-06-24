@@ -3,7 +3,8 @@ Install MCP Playwright
 # Cmd to install MCP Playwright in VS Code
 code --add-mcp "{\"name\":\"playwright\",\"command\":\"npx\",\"args\":[\"@playwright/mcp@latest\"]}"
 
-
+# In vs code settings
+Search for 'Auto approve code' and enable it
 
 # MCP-Playwright
 
