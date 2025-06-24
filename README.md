@@ -1,3 +1,10 @@
+Install MCP Playwright
+# MCP Playwright
+# Cmd to install MCP Playwright in VS Code
+code --add-mcp "{\"name\":\"playwright\",\"command\":\"npx\",\"args\":[\"@playwright/mcp@latest\"]}"
+
+
+
 # MCP-Playwright
 
 A Playwright testing project with Model Context Protocol (MCP) server integration for intelligent test generation.
