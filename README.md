@@ -91,7 +91,7 @@ This project is designed to work with the Playwright MCP server for intelligent 
 
 # Sample Playwright Test
 ```markdown
-Generate a playwrite test fro the following senario. 
+Generate a playwrite test for the following senario. 
 
 1. Launch browser
 2. Navigate to url 'http://automationexercise.com'
