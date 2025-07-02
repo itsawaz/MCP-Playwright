@@ -68,3 +68,27 @@ export async function elementExists(page: Page, selector: string): Promise<boole
     return false;
   }
 }
+
+/**
+ * Generate unique test data for user registration
+ */
+export function generateTestData() {
+  const timestamp = Date.now();
+  const randomNum = Math.floor(Math.random() * 1000);
+  
+  return {
+    name: `TestUser${timestamp}`,
+    email: `testuser${timestamp}${randomNum}@example.com`,
+    password: 'Test123!@#',
+    firstName: 'Test',
+    lastName: 'User',
+    company: 'Test Company',
+    address: '123 Test Street',
+    address2: 'Apt 456',
+    country: 'United States',
+    state: 'California',
+    city: 'Los Angeles',
+    zipcode: '90210',
+    mobile: '+1234567890'
+  };
+}
